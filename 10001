@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xsun Coin - White Paper</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #eef2f5;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background: #2c3e50;
+            color: #ecf0f1;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+        }
+        section {
+            background: #ffffff;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+        }
+         h2, h3 {
+            color: #2980b9;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: left;
+        }
+        th {
+            background-color: #2980b9;
+            color: #fff;
+        }
+        footer {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 0.9em;
+        }
+        a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        /* Notification message styles */
+        #copyNotification {
+            display: none;
+            position: absolute;
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border-radius: 8px;
+            z-index: 1000;
+            transition: opacity 0.5s;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+ <div style="font-size: 1vh; color: white;">
+    <h1>The Xsun Coin WhitePaper</h1>
+</header>
+</div>
+<section>
+    <h2>Introduction</h2>
+    <p>In a rapidly evolving digital landscape, Xsun Coin emerges as a pioneering cryptocurrency designed to reshape the future of digital currency mining. With a limited supply of only <strong>36,666 coins</strong>, Xsun Coin operates on the <strong>Binance Smart Chain (BSC)</strong>, ensuring secure and efficient transactions. Our vision is to offer a unique mining experience that empowers users to actively participate in the digital economy.</p>
+</section>
+
+<section>
+    <h2>Market Problem</h2>
+    <p>The cryptocurrency market faces challenges such as high energy consumption, inefficiencies in mining processes, and a lack of accessible platforms for new users. Many potential miners are deterred by complex setups and unclear benefits. Xsun Coin addresses these issues by providing an easy-to-use mining application while maintaining a commitment to sustainability and efficiency.</p>
+</section>
+
+<section>
+    <h2>Xsun Coin Solution</h2>
+    <p>Xsun Coin is not just another cryptocurrency; it is a solution to the inefficiencies present in the current mining ecosystem. By offering an intuitive Android app, we allow users to mine coins effortlessly while ensuring that the process is energy-efficient and user-friendly.</p>
+</section>
+
+<section>
+    <h2>Key Information</h2>
+    <ul>
+        <li><strong>Coin Name:</strong> Xsun Coin</li>
+        <li><strong>Symbol:</strong> XSUN</li>
+        <li><strong>Total Supply:</strong> 36,666</li>
+        <li><strong>Blockchain Network:</strong> Binance Smart Chain (BSC)</li>
+        <li><strong>Location:</strong> Switzerland</li>
+        <li><strong>Email:</strong> <a href="mailto:Coin@xsun.pro">Coin@xsun.pro</a></li>
+    </ul>
+</section>
+
+<section>
+    <h2>Smart Contract & Details</h2>
+    <p>The smart contract for Xsun Coin is designed to facilitate secure and transparent transactions on the <strong>Binance Smart Chain (BSC)</strong>. Users can verify all details related to the smart contract on BSC Scan.</p>
+    <p><strong>Smart Contract Address:</strong> <a href="#" onclick="copyAddress(event)">Click to copy the address</a></p>
+    <div id="copyNotification">Copied</div> <!-- Notification message -->
+</section>
+
+<section>
+    <h2>Features of Xsun Coin</h2>
+    <ul>
+        <li>Limited supply of <strong>36,666 coins</strong> ensures rarity and value preservation.</li>
+        <li><strong>Deflationary Mechanism:</strong> 1% burn on each transaction reduces supply, ensuring deflationary pressure until the supply reaches <strong>25,666 coins</strong>.</li>
+        <li>Built on Binance Smart Chain for high efficiency and security.</li>
+        <li>Integration plans with networks such as Near Protocol, ERC20, and Tron for greater flexibility.</li>
+        <li>User-friendly mining via our Android app.</li>
+        <li>Upcoming listings on major exchanges planned for <strong>2026</strong>.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Roadmap</h2>
+    <table>
+        <tr>
+            <th>Milestone</th>
+            <th>Date</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>Global Users</td>
+            <td>July 2025</td>
+            <td>Targeting <strong>200,000 active users</strong> globally through the app.</td>
+        </tr>
+        <tr>
+            <td>AI Bot Launch</td>
+            <td>October 2025</td>
+            <td>Launching an intelligent bot to transform real images into cartoons and send them to OpenSea.</td>
+        </tr>
+        <tr>
+            <td>SUN GPT Launch</td>
+            <td>December 2025</td>
+            <td>Introducing SUN GPT, an AI-powered Telegram bot offering information and creativity.</td>
+        </tr>
+        <tr>
+            <td>Liquidity Tools</td>
+            <td>February 2026</td>
+            <td>Adding 10,000 NEAR liquidity DEX tools and opening user withdrawals.</td>
+        </tr>
+        <tr>
+            <td>Exchange Listings</td>
+            <td>March 2026</td>
+            <td>Listing Xsun Coin on three major exchanges.</td>
+        </tr>
+        <tr>
+            <td>Upgrade</td>
+            <td>April 2026</td>
+            <td>Implementing upgrades for scalability and performance improvements.</td>
+        </tr>
+    </table>
+</section>
+
+<section>
+    <h2>About the Team</h2>
+    <p>The Xsun Coin project is led by a diverse team with extensive experience in advanced technologies:</p>
+    <ul>
+        <li><strong>Drone Engineering:</strong> Expertise in designing and developing civilian and military-grade drones.</li>
+        <li><strong>Artificial Intelligence:</strong> Knowledge in AI programming, creating intelligent Telegram bots.</li>
+        <li><strong>Blockchain Technology:</strong> Proven success in building secure and scalable systems on the Binance Smart Chain.</li>
+    </ul>
+    <p>This unique combination of skills allows us to remain at the forefront of innovation in blockchain and AI technologies.</p>
+</section>
+
+<section>
+    <h2>Download the Xsun Coin App</h2>
+    <p>Experience easy and efficient mining by downloading our Android app, available now for users.</p>
+    <p><a href="#">Download for Android</a></p>
+</section>
+
+<section>
+    <h2>Visit Us</h2>
+    <p>For more information, visit:</p>
+    <ul>
+        <li><a href="http://www.xsun.pro" target="_blank">Xsun Coin Website</a></li>
+        <li><a href="http://app.xsun.pro" target="_blank">Mining App Website</a></li>
+    </ul>
+</section>
+
+<footer>
+    <p>© 2024 Xsun Coin. All rights reserved.</p>
+    <p>Contact us at: <a href="mailto:Coin@xsun.pro">Coin@xsun.pro</a></p>
+</footer>
+
+<script>
+    function copyAddress(event) {
+        event.preventDefault(); // Prevent default anchor behavior
+        const address = "0xEf06e2D9C18680316E63944be3d881093Aa8d542"; // Smart contract address
+        navigator.clipboard.writeText(address).then(() => {
+            // Show the notification
+            const notification = document.getElementById('copyNotification');
+            notification.style.display = 'block';
+            // Position the notification near the link
+            const rect = event.target.getBoundingClientRect();
+            notification.style.left = (rect.left + rect.width / 2) + 'px';
+            notification.style.top = (rect.bottom + window.scrollY + 5) + 'px'; // Position below the button
+            setTimeout(() => {
+                notification.style.display = 'none'; // Hide after 3 seconds
+            }, 3000);
+        });
+    }
+</script>
+
+</body>
+</html>
